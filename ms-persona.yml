@@ -1,0 +1,15 @@
+server:
+  port: 9095
+  servlet:
+    context-path: /personas/v1/
+spring:
+  datasource:
+    #password: mysecretpassword
+    #url: jdbc:postgresql://172.17.0.2:5432/postgres
+    #username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
