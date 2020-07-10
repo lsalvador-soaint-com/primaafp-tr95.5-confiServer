@@ -1,0 +1,12 @@
+server:
+  port: 9092
+  servlet:
+    context-path: /affiliates/v1/
+spring:
+  datasource:
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
